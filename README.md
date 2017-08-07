@@ -14,7 +14,7 @@ Eloquent toolset of traits package for Laravel 5+
 Get the last version using [Composer](https://getcomposer.org/) in the root of your Laravel project:
 
 ```
-composer install socialchan/ether
+composer require socialchan/ether
 ```
 
 ## Getting started
