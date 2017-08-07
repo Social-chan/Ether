@@ -1,6 +1,6 @@
 {
     "name": "socialchan/ether",
-    "description": "Eloquent toolset of traits package for Laravel",
+    "description": "Eloquent toolset of traits package for Laravel 5+",
     "license": "MIT",
     "authors": [
         {
@@ -8,6 +8,12 @@
             "email": "d8vjork@outlook.com"
         }
     ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Socialchan\\Ether\\": "src/"
+        }
+    },
     "require": {
         "illuminate/database": "^5.1"
     },
